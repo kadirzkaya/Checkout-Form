@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="header">Checkout</h2>
+        <table class="table">
+            <tr class="space">
+                <td class="lefttop">
+                    <div class="contact">
+                        <h2>Contact Information</h2>
+                        <form class="info">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" placeholder="Enter your phone">
+                        </form>
+                    </div>
+                    
+                </td>
+                <td rowspan="2" class="right">
+                    <div class="shopping">
+                        <h2>Shopping Cart</h2>
+                        <div class="product">
+                            <div class="img">
+                                <img src="backpack1.jpg" height="100px">
+                            </div>
+                            <div class="other">
+                                <h3>Vintage Backpack</h3>
+                                <p><b>&#36;54.99</b> <del>&#36;94.99</del></p>
+                                <div>
+                                    <a href="#">+</a>
+                                    <span>1</span>
+                                    <a href="#">-</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="img">
+                                <img src="backpack2.jpg" height="100px">
+                            </div>
+                            <div class="other">
+                                <h3>Outdoor Backpack</h3>
+                                <p><b>&#36;74.99</b> <del>&#36;124.99</del></p>
+                                <div>
+                                    <a href="#">+</a>
+                                    <span>1</span>
+                                    <a href="#">-</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product result">
+                            <div>
+                                <h5>Shipping</h5>
+                                <p>&#36;19</p>
+                            </div>
+
+                            <div>
+                                <h5>Total</h5>
+                                <p>&#36;148.98 </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </td>
+            </tr>
+            <tr class="space">
+                <td class="leftbottom">
+                    <div class="shipping">
+                        <h2>Shipping Address</h2>
+                        <form class="address">
+                            <label for="fullname">Fullname</label>
+                            <input type="text" id="fullname" placeholder="Enter your fullname">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" placeholder="Enter your address">
+                            <label for="city">City</label>
+                            <input type="text" id="city" placeholder="Enter your city">
+                            <label for="country">Country</label>
+                            <select id="country">
+                                <option value="turkey">Turkey</option>
+                                <option value="spain">Spain</option>
+                                <option value="italy">Italy</option>
+                                <option value="germany">Germany</option>
+                            </select>
+                            <label for="postcode">Postcode</label>
+                            <input type="text" id="postcode" placeholder="Enter your postcode">
+                            <div class="inline">
+                                <input type="checkbox" id="saveThis">
+                                <label for="saveThis">Save This Information</label>
+                            </div>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+        <h2 class="header">Continue</h2>
+    </div>
+    
+</body>
+</html>
